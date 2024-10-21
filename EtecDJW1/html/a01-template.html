@@ -28,6 +28,55 @@
             font-size: 20px;
             color: gray;
         }
+
+        #t1{
+            border: 3px solid gray;
+            width: 80%;
+            margin: 30px auto;
+            font-size: 20px;
+            border-collapse: collapse;
+        }
+
+        #t1 td{
+            background-color: rgba(255, 235, 205, 0.58);
+            border: 1px solid gray
+            padding: 10px
+
+        }
+
+        #t1 #cabecalio td{
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #t1 .valor{
+            text-align: right;
+            width: 1%;
+        }
+
+        /* Tabela Simples Quadrada*/
+        #t2{
+            border: 3px solid rgb(167, 121, 6);
+            border-collapse: collapse;
+            margin: 30px auto;
+            min-width: 500px;
+            height: 500px;
+        }
+
+        #t2 td {
+            background-color: rgb(255, 253, 225);
+            border: 1px solid rgb(167, 121, 6);
+            padding: 10px;
+        }
+
+        #t2 #cabecalho td{
+            background-color: rgb(167, 121, 6);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +93,75 @@
     <main>
         <section>
             <h1>Tabela Simple</h1>
+            <table id="t1">
+                <tr id="cabecalio">
+                    <td>Fruta</td>
+                    <td>Embalagem</td>
+                    <td>R$</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Dúzia</td>
+                    <td class="valor">10,00</td>
+                </tr>
+                <tr>
+                    <td>Laranja</td>
+                    <td>Unidade</td>
+                    <td class="valor">2,00</td>
+                </tr>
+                <tr>
+                    <td>maçã
+                    <td>Unidade
+                    <td class="valor">3,00
+                </tr>
+                <tr>
+                    <td>Pera</td>
+                    <td>Pacote</td>
+                    <td class="valor">15,00</td>
+                </tr>
+                <tr>
+                    <td>Maracuja</td>
+                    <td>Pacote</td>
+                    <td class="valor">18,00</td>
+                </tr>
+                <tr>
+                    <td>Uva</td>
+                    <td>pacote</td>
+                    <td class="valor">22,00</td>
+                </tr>
+                <tr>
+                    <td>Melancia</td>
+                    <td>Unidade</td>
+                    <td class="valor">3,00</td>
+                </tr>
+            </table>
         </section> 
+        <section>
+            <h1>Tabela Simples Quadrada</h1>
+            <table id="t2">
+                <tr id="cabecalho">
+                    <td>Fruta</td>
+                    <td>Embalagem</td>
+                    <td>R$</td>
+                </tr>
+                
+                <tr>
+                    <td>Banana</td>
+                    <td>Dúzia</td>
+                    <td class="valor">10,00</td>
+                </tr>
+                <tr>
+                    <td>Laranja</td>
+                    <td>Unidade</td>
+                    <td class="valor">2,00</td>
+                </tr>
+                <tr>
+                    <td>maçã
+                    <td>Unidade
+                    <td class="valor">3,00
+                </tr>
+            </table>
+        </section>
     </main>
     <footer>
         <p>Copyright &copy; 1962-2024 - <a href="https://parisotto.net" target="_blank">Parisotto.Net Internet</a></p>
